@@ -3,7 +3,7 @@ class Player
   def initialize(name)
     @name = name
     @selection = selection
-    score = 0
+    @score = 0
   end
 
   def name=(name)
@@ -30,8 +30,12 @@ class Player
     @selection = "scissors"
   end
 
+  def score
+    @score
+  end
+
   def winner
-    score += 1
+    @score += 1
   end
 
 end
