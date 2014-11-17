@@ -5,7 +5,7 @@ describe Autoplayer do
 let(:autoplayer){ Autoplayer.new }
 
   it 'should return rock, paper or scissors' do
-    expect(autoplayer.opponent_move).to satisfy{ |choice| [:rock, :paper, :scissors].include?(choice) } 
+    expect(autoplayer.selection).to satisfy{ |selection| [:rock, :paper, :scissors].include?(selection) } 
   end
 
 end

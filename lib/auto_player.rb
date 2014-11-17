@@ -1,6 +1,6 @@
 class Autoplayer
 
-  def opponent_move
+  def selection
     [:rock, :paper, :scissors].sample
   end
 
